@@ -38,9 +38,13 @@ En CMD o terminal favorita:
 docker-compose up -d
 
 Esto levantará:
+
 •	Un contenedor para la aplicación Laravel.
+
 •	Un servidor web Nginx.
+
 •	Un contenedor MySQL para la base de datos.
+
 
 4. Instalar Dependencias
 Accede al contenedor de la aplicación:
