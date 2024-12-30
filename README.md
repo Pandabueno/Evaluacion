@@ -13,17 +13,24 @@ En CMD o terminal favorita:
 git clone https://github.com/Pandabueno/Evaluacion.git
 cd Evaluacion
 
-#2. Configurar el Archivo .env
+2. Configurar el Archivo .env
 Duplica el archivo .env.example y renobralo como .env. Configura los datos de conexión de tu base de datos, por ejemplo:
+
 DB_CONNECTION=mysql
+
 DB_HOST=db
+
 DB_PORT=3306
+
 DB_DATABASE=laravel
+
 DB_USERNAME=laravel
+
 DB_PASSWORD=laravel
 
 
-3. Levantar los Contenedores con Docker
+
+4. Levantar los Contenedores con Docker
 Desde el directorio del proyecto, ejecuta:
 
 En CMD o terminal favorita:
@@ -43,11 +50,17 @@ docker exec -it laravel_app bash
 Dentro del contenedor, ejecuta:
 
 En CMD o terminal favorita:
+
 composer install
+
 npm install
+
 npm run dev
+
 php artisan key:generate
+
 php artisan migrate
+
 ________________________________________
 Cómo Usar la Aplicación
 1.	Abre tu navegador y accede a http://localhost.
