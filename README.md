@@ -2,11 +2,11 @@
 Proyecto: Catálogo de Productos
 Este proyecto es un sistema de gestión de productos desarrollado en Laravel y Docker.
 ________________________________________
-#Requisitos Previos
+Requisitos Previos
 1.	Docker y Docker Compose instalados.
 2.	Git para clonar el repositorio.
 ________________________________________
-#Pasos para Configurar y Ejecutar
+Pasos para Configurar y Ejecutar
 #1. Clonar el Repositorio
 
 En CMD o terminal favorita:
@@ -23,7 +23,7 @@ DB_USERNAME=laravel
 DB_PASSWORD=laravel
 
 
-#3. Levantar los Contenedores con Docker
+3. Levantar los Contenedores con Docker
 Desde el directorio del proyecto, ejecuta:
 
 En CMD o terminal favorita:
@@ -34,7 +34,7 @@ Esto levantará:
 •	Un servidor web Nginx.
 •	Un contenedor MySQL para la base de datos.
 
-#4. Instalar Dependencias
+4. Instalar Dependencias
 Accede al contenedor de la aplicación:
 
 En CMD o terminal favorita:
