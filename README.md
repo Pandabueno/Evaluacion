@@ -7,7 +7,8 @@ Requisitos Previos
 2.	Git para clonar el repositorio.
 ________________________________________
 Pasos para Configurar y Ejecutar
-#1. Clonar el Repositorio
+
+1. Clonar el Repositorio
 
 En CMD o terminal favorita:
 git clone https://github.com/Pandabueno/Evaluacion.git
