@@ -14,7 +14,7 @@ git clone https://github.com/Pandabueno/Evaluacion.git
 cd Evaluacion
 
 #2. Configurar el Archivo .env
-Duplica el archivo .env.example y renómalo como .env. Configura los datos de conexión de tu base de datos, por ejemplo:
+Duplica el archivo .env.example y renobralo como .env. Configura los datos de conexión de tu base de datos, por ejemplo:
 DB_CONNECTION=mysql
 DB_HOST=db
 DB_PORT=3306
